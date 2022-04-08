@@ -34,14 +34,11 @@ public final class JsonResourceConverterR4 {
 
     private static final IParser PARSER = FhirContext.forR4().newJsonParser();
 
-    static {
-        PARSER.setPrettyPrint(true);
-    }
-
     private JsonResourceConverterR4() {
     }
 
-    public static String toString(Patient patient) {
+    public static String toString(Patient patient, boolean printPretty) {
+        PARSER.setPrettyPrint(printPretty);
         return PARSER.encodeResourceToString(patient);
     }
 
