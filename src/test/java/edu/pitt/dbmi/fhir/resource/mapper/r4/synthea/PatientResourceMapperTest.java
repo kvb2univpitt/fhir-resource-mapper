@@ -42,7 +42,7 @@ public class PatientResourceMapperTest {
         Path file = Paths.get(getClass().getResource("/data/synthea/covid19_csv/patients.csv").getFile());
         List<Patient> patients = PatientResourceMapper.getPatientsFromFile(file, Delimiters.COMMA_DELIM);
 
-        int expected = 1000;
+        int expected = 10;
         int actual = patients.size();
         Assertions.assertEquals(expected, actual);
     }

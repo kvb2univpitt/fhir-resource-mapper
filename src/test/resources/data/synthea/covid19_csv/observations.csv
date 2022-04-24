@@ -1,0 +1,780 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION,VALUE,UNITS,TYPE
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,8302-2,Body Height,82.7,cm,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,2.0,{score},numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,29463-7,Body Weight,12.6,kg,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,77606-2,Weight-for-length Per age and sex,86.1,%,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,9843-4,Head Occipital-frontal circumference,46.9,cm,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,8462-4,Diastolic Blood Pressure,76.0,mm[Hg],numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,8480-6,Systolic Blood Pressure,107.0,mm[Hg],numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,8867-4,Heart rate,68.0,/min,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,9279-1,Respiratory rate,13.0,/min,numeric
+2019-08-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,6a74fdef-2287-44bf-b9e7-18012376faca,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,8302-2,Body Height,86.3,cm,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,4.0,{score},numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,29463-7,Body Weight,13.4,kg,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,77606-2,Weight-for-length Per age and sex,87.5,%,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,9843-4,Head Occipital-frontal circumference,47.4,cm,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,39156-5,Body Mass Index,18.0,kg/m2,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,59576-9,Body mass index (BMI) [Percentile] Per age and gender,88.0,%,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,8462-4,Diastolic Blood Pressure,78.0,mm[Hg],numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,8480-6,Systolic Blood Pressure,100.0,mm[Hg],numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,8867-4,Heart rate,75.0,/min,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,9279-1,Respiratory rate,13.0,/min,numeric
+2020-01-30,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,821e57ac-9304-46a9-9f9b-83daf60e9e43,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,8310-5,Body temperature,39.7,Cel,numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,9279-1,Respiratory rate,32.9,/min,numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,8867-4,Heart rate,164.2,/min,numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,2708-6,Oxygen saturation in Arterial blood,86.2,%,numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,8462-4,Diastolic Blood Pressure,75.0,mm[Hg],numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,8480-6,Systolic Blood Pressure,130.0,mm[Hg],numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,29463-7,Body Weight,13.5,kg,numeric
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,681c380b-3c84-4c55-80a6-db3d9ea12fee,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,8302-2,Body Height,94.2,cm,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,3.0,{score},numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,29463-7,Body Weight,14.4,kg,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,77606-2,Weight-for-length Per age and sex,68.3,%,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,9843-4,Head Occipital-frontal circumference,48.8,cm,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,39156-5,Body Mass Index,16.2,kg/m2,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,59576-9,Body mass index (BMI) [Percentile] Per age and gender,63.9,%,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,8462-4,Diastolic Blood Pressure,77.0,mm[Hg],numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,8480-6,Systolic Blood Pressure,130.0,mm[Hg],numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,8867-4,Heart rate,85.0,/min,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,9279-1,Respiratory rate,15.0,/min,numeric
+2019-07-08,067318a4-db8f-447f-8b6e-f2f61e9baaa5,9aa748b8-3b44-4e34-b7a8-2e56f2ca3ca2,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,8302-2,Body Height,97.7,cm,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,2.0,{score},numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,29463-7,Body Weight,15.5,kg,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,77606-2,Weight-for-length Per age and sex,66.7,%,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,9843-4,Head Occipital-frontal circumference,48.9,cm,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,39156-5,Body Mass Index,16.2,kg/m2,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,59576-9,Body mass index (BMI) [Percentile] Per age and gender,70.1,%,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,8462-4,Diastolic Blood Pressure,75.0,mm[Hg],numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,8480-6,Systolic Blood Pressure,112.0,mm[Hg],numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,8867-4,Heart rate,90.0,/min,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,9279-1,Respiratory rate,14.0,/min,numeric
+2020-01-06,067318a4-db8f-447f-8b6e-f2f61e9baaa5,df2e9ebd-090c-4fb4-b749-ec6e4cf3e75e,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,8310-5,Body temperature,38.3,Cel,numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,9279-1,Respiratory rate,20.0,/min,numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,8867-4,Heart rate,172.4,/min,numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,2708-6,Oxygen saturation in Arterial blood,79.3,%,numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,8462-4,Diastolic Blood Pressure,79.0,mm[Hg],numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,8480-6,Systolic Blood Pressure,118.0,mm[Hg],numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,29463-7,Body Weight,15.8,kg,numeric
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-13,067318a4-db8f-447f-8b6e-f2f61e9baaa5,1ea74a77-3ad3-4948-a9cc-3084462035d6,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-04-28,067318a4-db8f-447f-8b6e-f2f61e9baaa5,e03b96de-5604-4989-a2d5-03a63e041eab,8310-5,Body temperature,37.6,Cel,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,8302-2,Body Height,165.7,cm,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,1.0,{score},numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,29463-7,Body Weight,68.2,kg,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,39156-5,Body Mass Index,24.8,kg/m2,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,8462-4,Diastolic Blood Pressure,106.0,mm[Hg],numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,8480-6,Systolic Blood Pressure,163.0,mm[Hg],numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,8867-4,Heart rate,74.0,/min,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,9279-1,Respiratory rate,15.0,/min,numeric
+2019-10-15,ae9efba3-ddc4-43f9-a781-f72019388548,6f9b301a-2b06-4868-b968-4d24faac576b,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,8302-2,Body Height,149.3,cm,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,8310-5,Body temperature,41.1,Cel,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,2.0,{score},numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,9279-1,Respiratory rate,32.5,/min,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,29463-7,Body Weight,45.3,kg,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,8867-4,Heart rate,186.9,/min,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,39156-5,Body Mass Index,20.3,kg/m2,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,2708-6,Oxygen saturation in Arterial blood,88.7,%,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,59576-9,Body mass index (BMI) [Percentile] Per age and gender,47.6,%,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,8462-4,Diastolic Blood Pressure,96.0,mm[Hg],numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,8462-4,Diastolic Blood Pressure,83.0,mm[Hg],numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,8480-6,Systolic Blood Pressure,187.0,mm[Hg],numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,8480-6,Systolic Blood Pressure,124.0,mm[Hg],numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,29463-7,Body Weight,68.2,kg,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,8867-4,Heart rate,77.0,/min,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,9279-1,Respiratory rate,16.0,/min,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,6690-2,Leukocytes [#/volume] in Blood by Automated count,7.9,10*3/uL,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.6,10*6/uL,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,718-7,Hemoglobin [Mass/volume] in Blood,12.6,g/dL,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,46.5,%,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,787-2,MCV [Entitic volume] by Automated count,94.9,fL,numeric
+2020-03-11,ae9efba3-ddc4-43f9-a781-f72019388548,eeab7c2d-71ba-4e04-af16-87a01dce7d54,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,785-6,MCH [Entitic mass] by Automated count,31.6,pg,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,786-4,MCHC [Mass/volume] by Automated count,34.2,g/dL,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,21000-5,Erythrocyte distribution width [Entitic volume] by Automated count,44.3,fL,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,777-3,Platelets [#/volume] in Blood by Automated count,398.3,10*3/uL,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,32207-3,Platelet distribution width [Entitic volume] in Blood by Automated count,183.4,fL,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,32623-1,Platelet mean volume [Entitic volume] in Blood by Automated count,11.4,fL,numeric
+2020-02-21,199c586f-af16-4091-9998-ee4cfc02ee7a,5844b770-504a-4eb4-a655-8483881dafb1,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,8310-5,Body temperature,40.7,Cel,numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,9279-1,Respiratory rate,22.3,/min,numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,8867-4,Heart rate,97.5,/min,numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,2708-6,Oxygen saturation in Arterial blood,78.2,%,numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,8462-4,Diastolic Blood Pressure,89.0,mm[Hg],numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,8480-6,Systolic Blood Pressure,120.0,mm[Hg],numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,29463-7,Body Weight,45.3,kg,numeric
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-01,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,199c586f-af16-4091-9998-ee4cfc02ee7a,8333efdf-f7bf-43bb-b73f-2b663d14c1ad,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,8310-5,Body temperature,38.8,Cel,numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,9279-1,Respiratory rate,18.6,/min,numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,8867-4,Heart rate,51.0,/min,numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,2708-6,Oxygen saturation in Arterial blood,77.6,%,numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,8480-6,Systolic Blood Pressure,116.0,mm[Hg],numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,29463-7,Body Weight,91.2,kg,numeric
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,80382-5,Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,80383-3,Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-03-02,353016ea-a0ff-4154-85bb-1cf8b6cedf20,8d502eec-afc0-4639-b298-a152a16d492a,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,8302-2,Body Height,49.9,cm,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,2.0,{score},numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,29463-7,Body Weight,3.8,kg,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,77606-2,Weight-for-length Per age and sex,79.9,%,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,9843-4,Head Occipital-frontal circumference,33.5,cm,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,8462-4,Diastolic Blood Pressure,79.0,mm[Hg],numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,8480-6,Systolic Blood Pressure,112.0,mm[Hg],numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,8867-4,Heart rate,69.0,/min,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,9279-1,Respiratory rate,16.0,/min,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,6690-2,Leukocytes [#/volume] in Blood by Automated count,6.0,10*3/uL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.1,10*6/uL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,718-7,Hemoglobin [Mass/volume] in Blood,15.5,g/dL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,40.2,%,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,787-2,MCV [Entitic volume] by Automated count,80.8,fL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,785-6,MCH [Entitic mass] by Automated count,29.8,pg,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,786-4,MCHC [Mass/volume] by Automated count,33.2,g/dL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,21000-5,Erythrocyte distribution width [Entitic volume] by Automated count,40.9,fL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,777-3,Platelets [#/volume] in Blood by Automated count,273.4,10*3/uL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,32207-3,Platelet distribution width [Entitic volume] in Blood by Automated count,377.9,fL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,32623-1,Platelet mean volume [Entitic volume] in Blood by Automated count,10.4,fL,numeric
+2019-06-12,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,552b57d9-3646-4824-9b31-2c36daf356ff,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,8302-2,Body Height,53.5,cm,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,3.0,{score},numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,29463-7,Body Weight,4.6,kg,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,77606-2,Weight-for-length Per age and sex,64.0,%,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,9843-4,Head Occipital-frontal circumference,36.9,cm,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,8462-4,Diastolic Blood Pressure,82.0,mm[Hg],numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,8480-6,Systolic Blood Pressure,114.0,mm[Hg],numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,8867-4,Heart rate,98.0,/min,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,9279-1,Respiratory rate,13.0,/min,numeric
+2019-07-17,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c7e933e0-3ec7-4db8-8574-7d3fbd55bb14,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,8302-2,Body Height,58.6,cm,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,1.0,{score},numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,29463-7,Body Weight,5.9,kg,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,77606-2,Weight-for-length Per age and sex,64.8,%,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,9843-4,Head Occipital-frontal circumference,39.5,cm,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,8462-4,Diastolic Blood Pressure,77.0,mm[Hg],numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,8480-6,Systolic Blood Pressure,123.0,mm[Hg],numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,8867-4,Heart rate,87.0,/min,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,9279-1,Respiratory rate,14.0,/min,numeric
+2019-09-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,c9cfac9c-57b7-48ad-a781-e85f63dd7459,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,8302-2,Body Height,62.4,cm,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,2.0,{score},numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,29463-7,Body Weight,7.0,kg,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,77606-2,Weight-for-length Per age and sex,80.4,%,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,9843-4,Head Occipital-frontal circumference,41.1,cm,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,8462-4,Diastolic Blood Pressure,78.0,mm[Hg],numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,8480-6,Systolic Blood Pressure,112.0,mm[Hg],numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,8867-4,Heart rate,62.0,/min,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,9279-1,Respiratory rate,16.0,/min,numeric
+2019-11-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,ea2d0134-90e7-4209-9eda-af906b724b89,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8310-5,Body temperature,38.8,Cel,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,9279-1,Respiratory rate,25.5,/min,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8867-4,Heart rate,94.9,/min,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,2708-6,Oxygen saturation in Arterial blood,86.8,%,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8462-4,Diastolic Blood Pressure,77.0,mm[Hg],numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8480-6,Systolic Blood Pressure,129.0,mm[Hg],numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,29463-7,Body Weight,8.3,kg,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8302-2,Body Height,67.1,cm,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,4.0,{score},numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,29463-7,Body Weight,8.3,kg,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,77606-2,Weight-for-length Per age and sex,79.6,%,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,9843-4,Head Occipital-frontal circumference,42.8,cm,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8462-4,Diastolic Blood Pressure,77.0,mm[Hg],numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8480-6,Systolic Blood Pressure,129.0,mm[Hg],numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,8867-4,Heart rate,82.0,/min,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,9279-1,Respiratory rate,15.0,/min,numeric
+2020-02-18,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e3143bce-4a59-40aa-a198-7a9e54077fd8,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,38.6,Cel,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,14.0,/min,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,136.5,/min,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,78.6,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,76.0,mm[Hg],numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,128.0,mm[Hg],numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.3,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,5.3,10*6/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,12.1,g/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,46.1,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,87.7,fL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,28.6,pg,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,34.7,g/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,14.3,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,141.9,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,39.0,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,21.2,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,9.6,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,4.7,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,3.6,%,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,3.2,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.1,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.6,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.5,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.7,mg/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,10.0,mL/min,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,6.9,g/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,4.6,g/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,10.6,mg/dL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,73.3,U/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,17.6,U/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,30.5,U/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,0.4,ug/mL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2276-4,Ferritin [Mass/volume] in Serum or Plasma,332.4,ug/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,89579-7,Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,2.3,pg/mL,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,14804-9,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,223.9,U/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2157-6,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,28.3,U/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,9.6,mg/L,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5902-2,Prothrombin time (PT),11.1,s,numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6301-6,INR in Platelet poor plasma by Coagulation assay,2.3,{INR},numeric
+2020-02-19,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33959-8,Procalcitonin [Mass/volume] in Serum or Plasma,0.1,ng/mL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,40.6,Cel,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,34.4,/min,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,193.7,/min,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,87.6,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,72.0,mm[Hg],numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,129.0,mm[Hg],numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.3,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,3.9,10*6/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,14.0,g/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,44.5,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,96.1,fL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,31.4,pg,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,33.6,g/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,15.3,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,105.0,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,24.4,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,11.0,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,5.3,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,4.2,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,3.1,%,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,1.9,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.0,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.7,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.6,mg/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,6.6,mL/min,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,6.1,g/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,5.3,g/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,8.9,mg/dL,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,39.4,U/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,3.9,U/L,numeric
+2020-02-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,16.4,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,40.3,Cel,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,15.8,/min,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,162.2,/min,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,77.1,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,73.0,mm[Hg],numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,127.0,mm[Hg],numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.9,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.2,10*6/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,13.2,g/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,45.9,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,83.4,fL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,33.0,pg,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,35.1,g/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,13.6,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,146.9,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,14.0,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,21.4,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,14.9,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,3.5,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,3.1,%,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,1.6,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.1,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.9,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.2,10*3/uL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.9,mg/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,9.5,mL/min,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,7.1,g/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,4.9,g/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,6.3,mg/dL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,113.6,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,20.5,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,6.3,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,0.3,ug/mL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2276-4,Ferritin [Mass/volume] in Serum or Plasma,359.4,ug/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,89579-7,Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,1.9,pg/mL,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,14804-9,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,222.8,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2157-6,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,19.5,U/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,10.8,mg/L,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5902-2,Prothrombin time (PT),13.0,s,numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6301-6,INR in Platelet poor plasma by Coagulation assay,2.5,{INR},numeric
+2020-02-21,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33959-8,Procalcitonin [Mass/volume] in Serum or Plasma,0.1,ng/mL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,39.2,Cel,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,18.4,/min,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,55.2,/min,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,88.0,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,78.0,mm[Hg],numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,127.0,mm[Hg],numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.7,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.9,10*6/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,11.9,g/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,40.5,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,89.0,fL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,30.8,pg,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,35.3,g/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,15.3,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,143.7,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,14.4,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,8.8,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,11.0,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,4.4,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,2.9,%,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,3.6,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.0,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,1.3,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.8,mg/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,6.6,mL/min,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,6.8,g/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,4.4,g/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,11.4,mg/dL,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,65.6,U/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,29.6,U/L,numeric
+2020-02-22,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,9.0,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,40.6,Cel,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,31.3,/min,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,160.0,/min,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,86.3,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,83.0,mm[Hg],numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,128.0,mm[Hg],numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.1,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,5.0,10*6/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,11.6,g/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,45.0,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,94.8,fL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,27.9,pg,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,35.2,g/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,14.6,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,99.4,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,23.8,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,21.7,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,9.4,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,5.3,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,4.0,%,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,2.2,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.0,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.9,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.5,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.7,mg/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,5.6,mL/min,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,6.5,g/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,5.4,g/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,14.0,mg/dL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,93.5,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,38.7,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,37.5,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,0.2,ug/mL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2276-4,Ferritin [Mass/volume] in Serum or Plasma,305.1,ug/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,89579-7,Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,3.0,pg/mL,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,14804-9,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,228.7,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2157-6,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,42.6,U/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,10.8,mg/L,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5902-2,Prothrombin time (PT),12.8,s,numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6301-6,INR in Platelet poor plasma by Coagulation assay,2.8,{INR},numeric
+2020-02-23,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33959-8,Procalcitonin [Mass/volume] in Serum or Plasma,0.0,ng/mL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,38.9,Cel,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,28.5,/min,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,96.6,/min,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,77.3,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,85.0,mm[Hg],numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,129.0,mm[Hg],numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.3,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,5.7,10*6/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,12.3,g/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,45.7,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,89.3,fL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,29.5,pg,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,32.4,g/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,14.1,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,101.3,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,15.9,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,5.3,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,8.5,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,4.3,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,2.2,%,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,2.6,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.1,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.9,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.6,mg/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,13.3,mL/min,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,8.0,g/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,5.5,g/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,11.5,mg/dL,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,91.5,U/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,5.9,U/L,numeric
+2020-02-24,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,13.1,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,39.1,Cel,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,24.1,/min,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,161.5,/min,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,85.7,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,84.0,mm[Hg],numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,132.0,mm[Hg],numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.8,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.2,10*6/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,12.0,g/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,41.0,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,84.2,fL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,29.6,pg,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,35.2,g/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,15.2,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,102.3,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,40.0,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,18.2,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,6.0,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,3.7,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,2.5,%,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,3.1,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,0.9,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.6,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.5,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,93.9,mg/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,15.9,mg/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.8,mg/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,9.2,mg/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.7,mmol/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,107.5,mmol/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,24.8,mmol/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,8.8,mL/min,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,7.3,g/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,5.3,g/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,10.9,mg/dL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,83.1,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,27.8,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,14.8,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,0.5,ug/mL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2276-4,Ferritin [Mass/volume] in Serum or Plasma,490.5,ug/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,89579-7,Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,3.4,pg/mL,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,14804-9,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,247.1,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2157-6,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,13.4,U/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,11.3,mg/L,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5902-2,Prothrombin time (PT),11.3,s,numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6301-6,INR in Platelet poor plasma by Coagulation assay,1.8,{INR},numeric
+2020-02-25,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33959-8,Procalcitonin [Mass/volume] in Serum or Plasma,0.2,ng/mL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,42.0,Cel,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,39.6,/min,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,56.4,/min,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,85.7,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,82.0,mm[Hg],numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,135.0,mm[Hg],numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.9,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.0,10*6/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,11.6,g/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,45.8,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,85.7,fL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,29.9,pg,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,35.5,g/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,12.5,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,99.8,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,42.4,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,11.0,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,7.4,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,3.9,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,3.7,%,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,3.1,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,0.8,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.8,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,72.1,mg/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,18.2,mg/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.7,mg/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,8.7,mg/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,139.3,mmol/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.6,mmol/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,104.0,mmol/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,28.6,mmol/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,9.2,mL/min,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,7.5,g/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,4.7,g/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,10.8,mg/dL,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,103.3,U/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,33.4,U/L,numeric
+2020-02-26,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,9.4,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,38.4,Cel,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,28.1,/min,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,103.8,/min,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,85.0,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,131.0,mm[Hg],numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.3,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.6,10*6/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,12.5,g/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,45.4,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,82.6,fL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,31.0,pg,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,34.9,g/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,14.6,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,114.6,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,41.4,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,10.5,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,12.7,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,4.3,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,2.9,%,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,1.7,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,0.9,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,0.6,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.3,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.2,10*3/uL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,72.1,mg/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,18.2,mg/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,2.7,mg/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,8.7,mg/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,139.3,mmol/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.6,mmol/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,104.0,mmol/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,28.6,mmol/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,10.2,mL/min,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,6.4,g/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,4.5,g/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,10.4,mg/dL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,111.3,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,39.1,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,34.7,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,0.5,ug/mL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2276-4,Ferritin [Mass/volume] in Serum or Plasma,467.8,ug/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,89579-7,Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,2.4,pg/mL,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,14804-9,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,240.0,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2157-6,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,52.1,U/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,11.2,mg/L,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5902-2,Prothrombin time (PT),12.7,s,numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6301-6,INR in Platelet poor plasma by Coagulation assay,1.2,{INR},numeric
+2020-02-27,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33959-8,Procalcitonin [Mass/volume] in Serum or Plasma,0.2,ng/mL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,38.1,Cel,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,9279-1,Respiratory rate,37.6,/min,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8867-4,Heart rate,138.9,/min,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2708-6,Oxygen saturation in Arterial blood,76.4,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8480-6,Systolic Blood Pressure,128.0,mm[Hg],numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,29463-7,Body Weight,8.3,kg,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6690-2,Leukocytes [#/volume] in Blood by Automated count,3.6,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.0,10*6/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,718-7,Hemoglobin [Mass/volume] in Blood,12.3,g/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,46.1,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,787-2,MCV [Entitic volume] by Automated count,94.5,fL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,785-6,MCH [Entitic mass] by Automated count,28.9,pg,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,786-4,MCHC [Mass/volume] by Automated count,32.8,g/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,788-0,Erythrocyte distribution width [Ratio] by Automated count,15.1,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,777-3,Platelets [#/volume] in Blood by Automated count,126.8,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,770-8,Neutrophils/100 leukocytes in Blood by Automated count,33.2,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,736-9,Lymphocytes/100 leukocytes in Blood by Automated count,15.4,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,5905-5,Monocytes/100 leukocytes in Blood by Automated count,12.7,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,713-8,Eosinophils/100 leukocytes in Blood by Automated count,5.4,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,706-2,Basophils/100 leukocytes in Blood by Automated count,3.1,%,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,751-8,Neutrophils [#/volume] in Blood by Automated count,1.7,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,731-0,Lymphocytes [#/volume] in Blood by Automated count,1.0,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,742-7,Monocytes [#/volume] in Blood by Automated count,1.0,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,711-2,Eosinophils [#/volume] in Blood by Automated count,0.5,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,704-7,Basophils [#/volume] in Blood by Automated count,0.4,10*3/uL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2345-7,Glucose [Mass/volume] in Serum or Plasma,72.1,mg/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,18.2,mg/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2160-0,Creatinine [Mass/volume] in Serum or Plasma,3.0,mg/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,17861-6,Calcium [Mass/volume] in Serum or Plasma,8.7,mg/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2951-2,Sodium [Moles/volume] in Serum or Plasma,139.3,mmol/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.6,mmol/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2075-0,Chloride [Moles/volume] in Serum or Plasma,104.0,mmol/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2028-9,Carbon dioxide  total [Moles/volume] in Serum or Plasma,28.6,mmol/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,33914-3,Glomerular filtration rate/1.73 sq M.predicted,5.1,mL/min,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,2885-2,Protein [Mass/volume] in Serum or Plasma,5.6,g/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1751-7,Albumin [Mass/volume] in Serum or Plasma,3.9,g/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,9.8,mg/dL,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,99.9,U/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,37.3,U/L,numeric
+2020-02-28,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,26.4,U/L,numeric
+2020-03-03,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,37.0,Cel,numeric
+2020-03-03,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Not detected (qualifier value),,text
+2020-03-05,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,8310-5,Body temperature,36.5,Cel,numeric
+2020-03-05,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,e97e8d37-7497-4c13-98fd-a4a45655c0bb,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Not detected (qualifier value),,text
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,8302-2,Body Height,70.9,cm,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,3.0,{score},numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,29463-7,Body Weight,9.4,kg,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,77606-2,Weight-for-length Per age and sex,82.3,%,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,9843-4,Head Occipital-frontal circumference,43.9,cm,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,8480-6,Systolic Blood Pressure,132.0,mm[Hg],numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,8867-4,Heart rate,94.0,/min,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,9279-1,Respiratory rate,15.0,/min,numeric
+2020-05-20,f58bf921-cba1-475a-b4f8-dc6fa3b8f89c,5bbe2c55-7e14-460b-be8a-81981cea31f0,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,8310-5,Body temperature,39.9,Cel,numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,9279-1,Respiratory rate,31.5,/min,numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,8867-4,Heart rate,82.1,/min,numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,2708-6,Oxygen saturation in Arterial blood,89.0,%,numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,8480-6,Systolic Blood Pressure,122.0,mm[Hg],numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,29463-7,Body Weight,112.7,kg,numeric
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,80382-5,Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,80383-3,Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-02-25,b9fd2dd8-181b-494b-ab15-e9f286d668d9,d99ee74b-4464-4bc7-b84f-9c7821c1285a,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,8310-5,Body temperature,42.0,Cel,numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,9279-1,Respiratory rate,20.9,/min,numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,8867-4,Heart rate,87.9,/min,numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,2708-6,Oxygen saturation in Arterial blood,83.5,%,numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,8462-4,Diastolic Blood Pressure,83.0,mm[Hg],numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,8480-6,Systolic Blood Pressure,113.0,mm[Hg],numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,29463-7,Body Weight,94.7,kg,numeric
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,80382-5,Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,80383-3,Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-03-07,d22592ac-552f-4ecd-a63d-7663d77ce9ba,df79b62c-a6a4-4474-9702-80106d03a967,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,8302-2,Body Height,167.3,cm,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,3.0,{score},numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,29463-7,Body Weight,74.0,kg,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,39156-5,Body Mass Index,26.4,kg/m2,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,8462-4,Diastolic Blood Pressure,75.0,mm[Hg],numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,8480-6,Systolic Blood Pressure,126.0,mm[Hg],numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,8867-4,Heart rate,90.0,/min,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,9279-1,Respiratory rate,13.0,/min,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,6690-2,Leukocytes [#/volume] in Blood by Automated count,4.2,10*3/uL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,789-8,Erythrocytes [#/volume] in Blood by Automated count,4.3,10*6/uL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,718-7,Hemoglobin [Mass/volume] in Blood,17.2,g/dL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,39.7,%,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,787-2,MCV [Entitic volume] by Automated count,91.1,fL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,785-6,MCH [Entitic mass] by Automated count,27.8,pg,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,786-4,MCHC [Mass/volume] by Automated count,33.4,g/dL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,21000-5,Erythrocyte distribution width [Entitic volume] by Automated count,45.0,fL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,777-3,Platelets [#/volume] in Blood by Automated count,360.6,10*3/uL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,32207-3,Platelet distribution width [Entitic volume] in Blood by Automated count,480.5,fL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,32623-1,Platelet mean volume [Entitic volume] in Blood by Automated count,11.9,fL,numeric
+2019-10-09,28658715-b770-4576-9a81-fbb2282a98ea,dcfbce53-e749-4082-851b-1eca7a3b2e15,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,8310-5,Body temperature,41.5,Cel,numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,9279-1,Respiratory rate,27.3,/min,numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,8867-4,Heart rate,84.4,/min,numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,2708-6,Oxygen saturation in Arterial blood,86.7,%,numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,8462-4,Diastolic Blood Pressure,84.0,mm[Hg],numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,8480-6,Systolic Blood Pressure,108.0,mm[Hg],numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,29463-7,Body Weight,74.0,kg,numeric
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,80382-5,Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-02-28,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,80383-3,Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay,Not detected (qualifier value),,text
+2020-02-29,28658715-b770-4576-9a81-fbb2282a98ea,7645d0b1-169d-40a8-868d-c8fc877b1bdc,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Detected (qualifier value),,text
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,8302-2,Body Height,155.0,cm,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,4.0,{score},numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,29463-7,Body Weight,81.2,kg,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,39156-5,Body Mass Index,33.8,kg/m2,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,59576-9,Body mass index (BMI) [Percentile] Per age and gender,99.1,%,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,8462-4,Diastolic Blood Pressure,80.0,mm[Hg],numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,8480-6,Systolic Blood Pressure,123.0,mm[Hg],numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,8867-4,Heart rate,92.0,/min,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,9279-1,Respiratory rate,13.0,/min,numeric
+2020-02-23,055ae6fc-7e18-4a39-8058-64082ca6d515,c1b20c27-bfc2-479a-80f0-fdf19e275ce8,72166-2,Tobacco smoking status NHIS,Never smoker,,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,8310-5,Body temperature,39.3,Cel,numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,9279-1,Respiratory rate,27.6,/min,numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,8867-4,Heart rate,131.1,/min,numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,2708-6,Oxygen saturation in Arterial blood,75.8,%,numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,8462-4,Diastolic Blood Pressure,73.0,mm[Hg],numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,8480-6,Systolic Blood Pressure,120.0,mm[Hg],numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,29463-7,Body Weight,81.2,kg,numeric
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92142-9,Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92141-1,Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92131-2,Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92140-3,Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92139-5,Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92138-7,Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92130-4,Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,92134-6,Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,94040-3,Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection,Negative (qualifier value),,text
+2020-03-02,055ae6fc-7e18-4a39-8058-64082ca6d515,df9831c9-3984-4626-9fbe-ae6e437425b2,94531-1,SARS-CoV-2 RNA Pnl Resp NAA+probe,Not detected (qualifier value),,text
