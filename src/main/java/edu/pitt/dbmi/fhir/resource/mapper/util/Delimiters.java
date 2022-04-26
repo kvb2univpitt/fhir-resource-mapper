@@ -30,6 +30,8 @@ public final class Delimiters {
 
     public static final Pattern COMMA_DELIM = Pattern.compile(",");
 
+    public static final Pattern TAB_DELIM = Pattern.compile("\t");
+
     private Delimiters() {
     }
 

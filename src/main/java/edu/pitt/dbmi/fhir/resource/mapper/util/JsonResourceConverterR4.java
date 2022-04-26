@@ -20,6 +20,7 @@ package edu.pitt.dbmi.fhir.resource.mapper.util;
 
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
+import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Patient;
 
 /**
@@ -42,8 +43,18 @@ public final class JsonResourceConverterR4 {
         return PARSER.encodeResourceToString(patient);
     }
 
+    public static String toString(Encounter encounter, boolean printPretty) {
+        PARSER.setPrettyPrint(printPretty);
+
+        return PARSER.encodeResourceToString(encounter);
+    }
+
     public static Patient toPatient(String json) {
         return PARSER.parseResource(Patient.class, json);
+    }
+
+    public static Encounter toEncounter(String json) {
+        return PARSER.parseResource(Encounter.class, json);
     }
 
 }

@@ -35,7 +35,7 @@ import java.util.stream.Stream;
  */
 public final class Locations {
 
-    private static Map<String, String> stateAbbreviations = new HashMap<>();
+    private static final Map<String, String> stateAbbreviations = new HashMap<>();
 
     static {
         loadStateAbbreviations();
