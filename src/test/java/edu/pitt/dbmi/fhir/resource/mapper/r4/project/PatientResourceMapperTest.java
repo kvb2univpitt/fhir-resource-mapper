@@ -16,27 +16,35 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package edu.pitt.dbmi.fhir.resource.mapper.util;
+package edu.pitt.dbmi.fhir.resource.mapper.r4.project;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+import edu.pitt.dbmi.fhir.resource.mapper.util.Delimiters;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import org.hl7.fhir.r4.model.Patient;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  *
- * Apr 7, 2022 12:11:30 PM
+ * Apr 27, 2022 12:03:29 AM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
- * @see https://www.hl7.org/fhir/r4/datatypes.html#date
  */
-public final class DateFormatters {
+public class PatientResourceMapperTest {
 
-    public static final DateFormat YYYY = new SimpleDateFormat("yyyy");
-    public static final DateFormat YYYY_MM = new SimpleDateFormat("yyyy-mm");
-    public static final DateFormat YYYY_MM_DD = new SimpleDateFormat("yyyy-mm-dd");
+    /**
+     * Test of getPatientsFromCsvFile method, of class PatientResourceMapper.
+     */
+    @Test
+    public void testGetPatientsFromCsvFile() {
+        Path file = Paths.get(getClass().getResource("/data/project/patients.tsv").getFile());
+        List<Patient> patients = PatientResourceMapper.getPatientsFromFile(file, Delimiters.TAB_DELIM);
 
-    public static final DateFormat MM_DD_YYYY = new SimpleDateFormat("mm/dd/yyyy");
-
-    private DateFormatters() {
+        int expected = 6;
+        int actual = patients.size();
+        Assertions.assertEquals(expected, actual);
     }
 
 }
