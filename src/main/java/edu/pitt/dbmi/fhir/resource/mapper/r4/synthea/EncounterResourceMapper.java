@@ -118,8 +118,7 @@ public class EncounterResourceMapper extends AbstractSyntheaResource {
         if (!fields[REASONCODE].isEmpty()) {
             encounter.addReasonCode(getReasonCode(fields));
         }
-
-        Organizations.getOrganization("1");
+        encounter.setSubject(getSubject(fields));
 
         return encounter;
     }
@@ -167,12 +166,9 @@ public class EncounterResourceMapper extends AbstractSyntheaResource {
         return classCode;
     }
 
-    private static List<Reference> getAccount(String[] fields) {
-        List<Reference> references = new LinkedList<>();
-
-        Reference reference = new Reference();
-
-        return references;
+    private static Reference getSubject(String[] fields) {
+        return (new Reference())
+                .setReference(String.format("urn:uuid:%s", fields[PATIENT]));
     }
 
 }
