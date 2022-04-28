@@ -18,8 +18,12 @@
  */
 package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
 
+import java.math.BigDecimal;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
+import org.hl7.fhir.r4.model.Quantity;
+import org.hl7.fhir.r4.model.StringType;
+import org.hl7.fhir.r4.model.Type;
 
 /**
  *
@@ -40,6 +44,19 @@ public abstract class AbstractSyntheaResource {
     protected static final String DICOM_DCM_URI = "http://dicom.nema.org/resources/ontology/DCM";
     protected static final String MEDIA_TYPE_URI = "http://terminology.hl7.org/CodeSystem/media-type";
     protected static final String SYNTHEA_IDENTIFIER = "https://github.com/synthetichealth/synthea";
+
+    static Type toFHIRType(String type, String value, String unit) {
+        switch (type) {
+            case "numeric":
+                return new Quantity().setValue(BigDecimal.valueOf(Double.parseDouble(value)))
+                        .setCode(unit).setSystem(UNITSOFMEASURE_URI)
+                        .setUnit(unit);
+            case "text":
+                return new StringType((String) value);
+            default:
+                return null;
+        }
+    }
 
     protected static CodeableConcept mapCodeToCodeableConcept(Code from, String system) {
         CodeableConcept to = new CodeableConcept();
