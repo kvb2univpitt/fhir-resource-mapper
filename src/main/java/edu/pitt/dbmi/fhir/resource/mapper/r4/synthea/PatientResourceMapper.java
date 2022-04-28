@@ -47,6 +47,7 @@ import org.hl7.fhir.r4.model.StringType;
  * Apr 7, 2022 12:07:01 PM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
+ * @see https://www.hl7.org/fhir/patient.html
  */
 public final class PatientResourceMapper extends AbstractSyntheaResource {
 

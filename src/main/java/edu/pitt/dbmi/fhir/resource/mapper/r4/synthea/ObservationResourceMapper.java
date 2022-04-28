@@ -41,6 +41,7 @@ import org.hl7.fhir.r4.model.Reference;
  * Apr 27, 2022 3:35:46 PM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
+ * @see https://www.hl7.org/fhir/observation.html
  */
 public class ObservationResourceMapper extends AbstractSyntheaResource {
 
@@ -85,6 +86,13 @@ public class ObservationResourceMapper extends AbstractSyntheaResource {
         return observations;
     }
 
+    /**
+     *
+     * @param fields
+     * @return
+     * @throws ParseException
+     * @see https://www.hl7.org/fhir/observation.html
+     */
     private static Observation getObservation(String[] fields) throws ParseException {
         Observation observation = new Observation();
         observation.setMeta(US_CORE_OBSERVATION_PROFILE);
@@ -95,6 +103,7 @@ public class ObservationResourceMapper extends AbstractSyntheaResource {
         observation.addComponent(getComponent(fields));
         observation.setEffective(new DateTimeType(DateFormatters.YYYY_MM_DD.parse(fields[DATE])));
         observation.setIssued(DateFormatters.YYYY_MM_DD.parse(fields[DATE]));
+        observation.addCategory(getCategory());
 
         return observation;
     }

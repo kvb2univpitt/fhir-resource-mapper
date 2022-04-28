@@ -20,6 +20,8 @@ package edu.pitt.dbmi.fhir.resource.mapper.util;
 
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
+import java.util.List;
+import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Observation;
 import org.hl7.fhir.r4.model.Patient;
@@ -39,20 +41,53 @@ public final class JsonResourceConverterR4 {
     private JsonResourceConverterR4() {
     }
 
-    public static String toString(Patient patient, boolean printPretty) {
+    public static String toJsonResource(Patient patient, boolean printPretty) {
         PARSER.setPrettyPrint(printPretty);
         return PARSER.encodeResourceToString(patient);
     }
 
-    public static String toString(Encounter encounter, boolean printPretty) {
+    public static String toJsonResource(Encounter encounter, boolean printPretty) {
         PARSER.setPrettyPrint(printPretty);
 
         return PARSER.encodeResourceToString(encounter);
     }
 
-    public static String toString(Observation observation, boolean printPretty) {
+    public static String toJsonResource(Observation observation, boolean printPretty) {
         PARSER.setPrettyPrint(printPretty);
         return PARSER.encodeResourceToString(observation);
+    }
+
+    public static String patientsToJsonBundle(Bundle.BundleType type, List<Patient> patients, boolean printPretty) {
+        Bundle bundle = new Bundle();
+        bundle.setType(type);
+
+        patients.forEach(e -> bundle.addEntry().setResource(e));
+
+        PARSER.setPrettyPrint(printPretty);
+
+        return PARSER.encodeResourceToString(bundle);
+    }
+
+    public static String encountersToJsonBundle(Bundle.BundleType type, List<Encounter> encounters, boolean printPretty) {
+        Bundle bundle = new Bundle();
+        bundle.setType(type);
+
+        encounters.forEach(e -> bundle.addEntry().setResource(e));
+
+        PARSER.setPrettyPrint(printPretty);
+
+        return PARSER.encodeResourceToString(bundle);
+    }
+
+    public static String observationsToJsonBundle(Bundle.BundleType type, List<Observation> observations, boolean printPretty) {
+        Bundle bundle = new Bundle();
+        bundle.setType(type);
+
+        observations.forEach(e -> bundle.addEntry().setResource(e));
+
+        PARSER.setPrettyPrint(printPretty);
+
+        return PARSER.encodeResourceToString(bundle);
     }
 
     public static Patient toPatient(String json) {

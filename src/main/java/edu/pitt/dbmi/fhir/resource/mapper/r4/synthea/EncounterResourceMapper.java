@@ -43,6 +43,7 @@ import org.hl7.fhir.r4.model.Reference;
  * Apr 24, 2022 7:44:57 PM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
+ * @see https://www.hl7.org/fhir/encounter.html
  */
 public class EncounterResourceMapper extends AbstractSyntheaResource {
 
