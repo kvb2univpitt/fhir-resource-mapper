@@ -1,7 +1,0 @@
-ENCNTR_ID	name_last	name_first	sex	birth_dt_tm	age_days	street_addr	city	state	zipcode
-azure_brain_ai_1	azure_last1	azure_first1	Female	08/20/2016	1938	123 Main Street	Pittsburgh	PA	15205
-azure_brain_ai_2	azure_last2	azure_first2	Male	08/21/2016	388	124 Main Street	Pittsburgh	PA	15205
-azure_brain_ai_3	azure_last3	azure_first3	Female	08/22/2016	175	125 Main Street	Pittsburgh	PA	15205
-azure_brain_ai_4	azure_last4	azure_first4	Female	08/23/2016	7152	126 Main Street	Pittsburgh	PA	15205
-azure_brain_ai_5	azure_last5	azure_first5	Male	08/24/2016	407	127 Main Street	Pittsburgh	PA	15205
-azure_brain_ai_6	azure_last6	azure_first6	Female	08/25/2016	409	128 Main Street	Pittsburgh	PA	15205

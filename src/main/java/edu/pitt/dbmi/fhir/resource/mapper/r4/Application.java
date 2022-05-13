@@ -49,8 +49,6 @@ public class Application {
                     case "synthea":
                         exportSyntheaData(inputDir, outputDir);
                         break;
-                    case "project":
-                        break;
                     default:
                         System.err.printf("No such data mapper for %s exist.%n", args[0]);
                         System.exit(-1);
@@ -118,46 +116,6 @@ public class Application {
                             }
 
                             exportObservationResources(outputDir, observations);
-                        }
-                    });
-        } catch (IOException exception) {
-            exception.printStackTrace(System.err);
-        }
-    }
-
-    private static void exportProjectData(Path inputDir, Path outputDir) {
-        try {
-            Files.list(inputDir)
-                    .filter(Files::isRegularFile)
-                    .forEach(file -> {
-                        String filename = file.getFileName().toString();
-                        if (filename.startsWith("patients")) {
-                            List<Patient> patients = new LinkedList<>();
-                            if (filename.endsWith(".csv")) {
-                                patients.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.PatientResourceMapper.getPatientsFromFile(file, Delimiters.COMMA_DELIM));
-                            } else if (filename.endsWith(".tsv")) {
-                                patients.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.PatientResourceMapper.getPatientsFromFile(file, Delimiters.TAB_DELIM));
-                            }
-
-                            exportPatientResources(outputDir, patients);
-                        } else if (filename.startsWith("encounters")) {
-//                            List<Encounter> encounters = new LinkedList<>();
-//                            if (filename.endsWith(".csv")) {
-//                                encounters.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.EncounterResourceMapper.getEncountersFromFile(file, Delimiters.COMMA_DELIM));
-//                            } else if (filename.endsWith(".tsv")) {
-//                                encounters.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.EncounterResourceMapper.getEncountersFromFile(file, Delimiters.TAB_DELIM));
-//                            }
-//
-//                            exportEncounterResources(outputDir, encounters);
-                        } else if (filename.startsWith("observations")) {
-//                            List<Observation> observations = new LinkedList<>();
-//                            if (filename.endsWith(".csv")) {
-//                                observations.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.ObservationResourceMapper.getObservationFromFile(file, Delimiters.COMMA_DELIM));
-//                            } else if (filename.endsWith(".tsv")) {
-//                                observations.addAll(edu.pitt.dbmi.fhir.resource.mapper.r4.project.ObservationResourceMapper.getObservationFromFile(file, Delimiters.TAB_DELIM));
-//                            }
-//
-//                            exportObservationResources(outputDir, observations);
                         }
                     });
         } catch (IOException exception) {
