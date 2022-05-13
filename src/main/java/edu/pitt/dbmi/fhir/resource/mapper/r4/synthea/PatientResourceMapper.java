@@ -19,7 +19,9 @@
 package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
 
 import edu.pitt.dbmi.fhir.resource.mapper.r4.IdentifierTypes;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.CodingSystemURIs;
 import edu.pitt.dbmi.fhir.resource.mapper.util.DateFormatters;
+import edu.pitt.dbmi.fhir.resource.mapper.util.FhirUtils;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -49,7 +51,7 @@ import org.hl7.fhir.r4.model.StringType;
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
  * @see https://www.hl7.org/fhir/patient.html
  */
-public final class PatientResourceMapper extends AbstractSyntheaResource {
+public final class PatientResourceMapper {
 
     private static final Meta US_CORE_PATIENT_PROFILE = new Meta();
 
@@ -249,30 +251,30 @@ public final class PatientResourceMapper extends AbstractSyntheaResource {
         List<Identifier> identifiers = new LinkedList<>();
 
         identifiers.add((new Identifier())
-                .setSystem(SYNTHEA_IDENTIFIER)
+                .setSystem(CodingSystemURIs.SYNTHEA_IDENTIFIER)
                 .setValue(fields[ID]));
 
         identifiers.add((new Identifier())
-                .setType(mapCodingToCodeableConcept(IdentifierTypes.MEDICAL_RECORD_NUMBER))
+                .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.MEDICAL_RECORD_NUMBER))
                 .setSystem("http://hospital.smarthealthit.org")
                 .setValue(fields[ID]));
 
         identifiers.add((new Identifier())
-                .setType(mapCodingToCodeableConcept(IdentifierTypes.SOCIAL_SECURITY_NUMBER))
+                .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.SOCIAL_SECURITY_NUMBER))
                 .setSystem("http://hl7.org/fhir/sid/us-ssn")
                 .setValue(fields[SSN]));
 
         if (!fields[DRIVERS].isEmpty()) {
             identifiers.add((new Identifier())
-                    .setType(mapCodingToCodeableConcept(IdentifierTypes.DRIVERS_LICENSE_NUMBER))
+                    .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.DRIVERS_LICENSE_NUMBER))
                     .setSystem("urn:oid:2.16.840.1.113883.4.3.25")
                     .setValue(fields[DRIVERS]));
         }
 
         if (!fields[PASSPORT].isEmpty()) {
             identifiers.add((new Identifier())
-                    .setType(mapCodingToCodeableConcept(IdentifierTypes.PASSPORT_NUMBER))
-                    .setSystem(SHR_EXT + "passportNumber")
+                    .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.PASSPORT_NUMBER))
+                    .setSystem(CodingSystemURIs.SHR_EXT + "passportNumber")
                     .setValue(fields[PASSPORT]));
         }
 

@@ -18,7 +18,9 @@
  */
 package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
 
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.CodingSystemURIs;
 import edu.pitt.dbmi.fhir.resource.mapper.util.DateFormatters;
+import edu.pitt.dbmi.fhir.resource.mapper.util.FhirUtils;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -43,7 +45,7 @@ import org.hl7.fhir.r4.model.Reference;
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
  * @see https://www.hl7.org/fhir/observation.html
  */
-public class ObservationResourceMapper extends AbstractSyntheaResource {
+public class ObservationResourceMapper {
 
     private static final Meta US_CORE_OBSERVATION_PROFILE = new Meta();
 
@@ -111,7 +113,7 @@ public class ObservationResourceMapper extends AbstractSyntheaResource {
     private static ObservationComponentComponent getComponent(String[] fields) {
         ObservationComponentComponent comp = new ObservationComponentComponent();
         comp.setCode(getCode(fields));
-        comp.setValue(toFHIRType(fields[TYPE], fields[VALUE], fields[UNITS]));
+        comp.setValue(FhirUtils.toFHIRType(fields[TYPE], fields[VALUE], fields[UNITS]));
 
         return comp;
     }
@@ -126,7 +128,7 @@ public class ObservationResourceMapper extends AbstractSyntheaResource {
     }
 
     private static CodeableConcept getCode(String[] fields) {
-        return new CodeableConcept(new Coding(LOINC_URI, fields[CODE], fields[DESCRIPTION]));
+        return new CodeableConcept(new Coding(CodingSystemURIs.LOINC_URI, fields[CODE], fields[DESCRIPTION]));
     }
 
     private static Reference getEncounter(String[] fields) {

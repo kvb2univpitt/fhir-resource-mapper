@@ -18,6 +18,8 @@
  */
 package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
 
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.CodingSystemURIs;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.EncounterTypes;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -45,7 +47,7 @@ import org.hl7.fhir.r4.model.Reference;
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
  * @see https://www.hl7.org/fhir/encounter.html
  */
-public class EncounterResourceMapper extends AbstractSyntheaResource {
+public class EncounterResourceMapper {
 
     private static final Meta US_CORE_ENCOUNTER_PROFILE = new Meta();
 
@@ -131,12 +133,12 @@ public class EncounterResourceMapper extends AbstractSyntheaResource {
             type.addCoding()
                     .setCode("185349003")
                     .setDisplay("Encounter for check up")
-                    .setSystem(SNOMED_URI);
+                    .setSystem(CodingSystemURIs.SNOMED_URI);
         } else {
             type.addCoding()
                     .setCode(fields[CODE])
                     .setDisplay(fields[DESCRIPTION])
-                    .setSystem(SNOMED_URI);
+                    .setSystem(CodingSystemURIs.SNOMED_URI);
         }
 
         return type;
@@ -147,7 +149,7 @@ public class EncounterResourceMapper extends AbstractSyntheaResource {
         reasonCode.addCoding()
                 .setCode(fields[REASONCODE])
                 .setDisplay(fields[REASONDESCRIPTION])
-                .setSystem(SNOMED_URI);
+                .setSystem(CodingSystemURIs.SNOMED_URI);
 
         return reasonCode;
     }
@@ -161,7 +163,7 @@ public class EncounterResourceMapper extends AbstractSyntheaResource {
 
     private static Coding getClassCode(String[] fields) {
         Coding classCode = new Coding();
-        classCode.setCode(EncounterType.fromString(fields[ENCOUNTERCLASS]).code());
+        classCode.setCode(EncounterTypes.fromString(fields[ENCOUNTERCLASS]).code());
         classCode.setSystem("http://terminology.hl7.org/CodeSystem/v3-ActCode");
 
         return classCode;

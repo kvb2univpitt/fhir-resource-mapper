@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
+package edu.pitt.dbmi.fhir.resource.mapper.r4.standards;
 
 /**
  *
@@ -25,27 +25,34 @@ package edu.pitt.dbmi.fhir.resource.mapper.r4.synthea;
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
  * @see http://www.hl7.org/implement/standards/fhir/v3/ActEncounterCode/vs.html
  */
-public enum EncounterType {
+public enum EncounterTypes {
 
-    WELLNESS("AMB"), AMBULATORY("AMB"), OUTPATIENT("AMB"),
-    INPATIENT("IMP"), EMERGENCY("EMER"), URGENTCARE("AMB"),
-    HOSPICE("HH"), HOME("HH"), SNF("IMP"), VIRTUAL("VR");
+    WELLNESS("AMB"),
+    AMBULATORY("AMB"),
+    OUTPATIENT("AMB"),
+    INPATIENT("IMP"),
+    EMERGENCY("EMER"),
+    URGENTCARE("AMB"),
+    HOSPICE("HH"),
+    HOME("HH"),
+    SNF("IMP"),
+    VIRTUAL("VR");
 
     private final String code;
 
-    EncounterType(String code) {
+    EncounterTypes(String code) {
         this.code = code;
     }
 
-    public static EncounterType fromString(String value) {
+    public static EncounterTypes fromString(String value) {
         if (value.isEmpty()) {
-            return EncounterType.AMBULATORY;
+            return EncounterTypes.AMBULATORY;
         } else {
             switch (value) {
                 case "super":
-                    return EncounterType.INPATIENT;
+                    return EncounterTypes.INPATIENT;
                 default:
-                    return EncounterType.valueOf(value.toUpperCase());
+                    return EncounterTypes.valueOf(value.toUpperCase());
             }
         }
     }
