@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Netbeans files
 nb-configuration.xml
+
+# Maven files
+target/
