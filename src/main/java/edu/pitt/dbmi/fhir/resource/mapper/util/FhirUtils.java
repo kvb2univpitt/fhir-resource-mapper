@@ -50,10 +50,15 @@ public final class FhirUtils {
         }
     }
 
-    public static CodeableConcept mapCodingToCodeableConcept(Coding coding) {
-        return (new CodeableConcept())
+    public static CodeableConcept mapCodingToCodeableConcept(Coding coding, Coding... codings) {
+        CodeableConcept codeableConcept = new CodeableConcept()
                 .addCoding(coding)
                 .setText(coding.getDisplay());
+        for (Coding c : codings) {
+            codeableConcept.addCoding(c);
+        }
+
+        return codeableConcept;
     }
 
 }

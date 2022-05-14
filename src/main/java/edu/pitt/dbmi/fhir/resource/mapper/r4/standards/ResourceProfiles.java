@@ -16,27 +16,29 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package edu.pitt.dbmi.fhir.resource.mapper.util;
+package edu.pitt.dbmi.fhir.resource.mapper.r4.standards;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+import org.hl7.fhir.r4.model.Meta;
 
 /**
  *
- * Apr 7, 2022 12:11:30 PM
+ * May 13, 2022 4:56:02 PM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
- * @see https://www.hl7.org/fhir/r4/datatypes.html#date
  */
-public final class DateFormatters {
+public final class ResourceProfiles {
 
-    public static final DateFormat YYYY = new SimpleDateFormat("yyyy");
-    public static final DateFormat YYYY_MM = new SimpleDateFormat("yyyy-MM");
-    public static final DateFormat YYYY_MM_DD = new SimpleDateFormat("yyyy-MM-dd");
+    public static final Meta US_CORE_PATIENT_PROFILE = new Meta();
+    public static final Meta US_CORE_ENCOUNTER_PROFILE = new Meta();
+    public static final Meta US_CORE_OBSERVATION_PROFILE = new Meta();
 
-    public static final DateFormat MM_DD_YYYY = new SimpleDateFormat("MM/dd/yyyy");
+    static {
+        US_CORE_PATIENT_PROFILE.addProfile("http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html");
+        US_CORE_ENCOUNTER_PROFILE.addProfile("http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter");
+        US_CORE_OBSERVATION_PROFILE.addProfile("http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab");
+    }
 
-    private DateFormatters() {
+    private ResourceProfiles() {
     }
 
 }

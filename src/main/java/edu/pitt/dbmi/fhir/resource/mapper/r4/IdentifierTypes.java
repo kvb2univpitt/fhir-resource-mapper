@@ -48,6 +48,12 @@ public final class IdentifierTypes {
             .setCode("PPN")
             .setDisplay("Passport number");
 
+    public static final Coding CERNER_PERSON_ID = new Coding()
+            .setSystem("https://fhir.<region>.cerner.com/<EHR source id>/codeSet/4")
+            .setCode("10")
+            .setDisplay("MRN")
+            .setUserSelected(true);
+
     private IdentifierTypes() {
     }
 

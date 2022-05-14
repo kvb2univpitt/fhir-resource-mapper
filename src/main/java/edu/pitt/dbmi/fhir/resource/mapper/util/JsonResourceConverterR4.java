@@ -21,6 +21,7 @@ package edu.pitt.dbmi.fhir.resource.mapper.util;
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
 import java.util.List;
+import org.hl7.fhir.instance.model.api.IBaseResource;
 import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Observation;
@@ -41,20 +42,9 @@ public final class JsonResourceConverterR4 {
     private JsonResourceConverterR4() {
     }
 
-    public static String toJsonResource(Patient patient, boolean printPretty) {
+    public static String resourceToJson(IBaseResource resource, boolean printPretty) {
         PARSER.setPrettyPrint(printPretty);
-        return PARSER.encodeResourceToString(patient);
-    }
-
-    public static String toJsonResource(Encounter encounter, boolean printPretty) {
-        PARSER.setPrettyPrint(printPretty);
-
-        return PARSER.encodeResourceToString(encounter);
-    }
-
-    public static String toJsonResource(Observation observation, boolean printPretty) {
-        PARSER.setPrettyPrint(printPretty);
-        return PARSER.encodeResourceToString(observation);
+        return PARSER.encodeResourceToString(resource);
     }
 
     public static String patientsToJsonBundle(Bundle.BundleType type, List<Patient> patients, boolean printPretty) {
