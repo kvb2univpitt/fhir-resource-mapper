@@ -19,7 +19,6 @@
 package edu.pitt.dbmi.fhir.resource.mapper.r4.brainai;
 
 import edu.pitt.dbmi.fhir.resource.mapper.r4.IdentifierTypes;
-import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.ResourceProfiles;
 import edu.pitt.dbmi.fhir.resource.mapper.r4.synthea.Locations;
 import edu.pitt.dbmi.fhir.resource.mapper.util.DateFormatters;
 import edu.pitt.dbmi.fhir.resource.mapper.util.FhirUtils;
@@ -30,8 +29,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.Address;
 import org.hl7.fhir.r4.model.Enumerations;
@@ -58,18 +59,14 @@ public class PatientResourceMapper {
     public static final int STATE = 7;
     public static final int ZIP = 8;
 
-    /**
-     * @param file
-     * @param delimiter
-     * @return
-     */
-    public static List<Patient> getPatientsFromFile(final Path file, final Pattern delimiter) {
-        List<Patient> patients = new LinkedList<>();
+    public static Map<String, Patient> getPatients(final Path file, final Pattern delimiter) {
+        Map<String, Patient> patients = new HashMap<>();
 
         try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
             reader.readLine(); // skip header
             for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-                patients.add(getPatient(delimiter.split(line.trim())));
+                String[] fields = delimiter.split(line.trim());
+                patients.put(fields[PERSON_ID], getPatient(fields));
             }
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
@@ -87,13 +84,12 @@ public class PatientResourceMapper {
      */
     private static Patient getPatient(String[] fields) throws ParseException {
         Patient patient = new Patient();
-        patient.setMeta(ResourceProfiles.US_CORE_PATIENT_PROFILE);
+//        patient.setMeta(ResourceProfiles.US_CORE_PATIENT_PROFILE);
         patient.setIdentifier(getIdentifiers(fields));
         patient.setName(getNames(fields));
         patient.setGender(getGender(fields));
         patient.setAddress(getAddress(fields));
         patient.setBirthDate(DateFormatters.MM_DD_YYYY.parse(fields[BIRTHDATE]));
-        System.out.println(fields[BIRTHDATE]);
 
         return patient;
     }
@@ -157,7 +153,7 @@ public class PatientResourceMapper {
     private static List<Identifier> getIdentifiers(String[] fields) {
         return Collections.singletonList(new Identifier()
                 .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.CERNER_PERSON_ID, IdentifierTypes.MEDICAL_RECORD_NUMBER))
-                .setSystem("urn:oid:2.16.840.1.113883.6.1000")
+                .setSystem("urn:oid:2.16.840.1.113883.3.552")
                 .setValue(fields[PERSON_ID]));
     }
 
