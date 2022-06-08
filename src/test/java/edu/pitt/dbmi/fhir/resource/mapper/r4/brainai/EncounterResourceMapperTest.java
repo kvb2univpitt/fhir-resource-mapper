@@ -22,35 +22,38 @@ import edu.pitt.dbmi.fhir.resource.mapper.util.Delimiters;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Map;
+import java.util.regex.Pattern;
+import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Patient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
  *
- * May 13, 2022 4:24:58 PM
+ * Jun 7, 2022 9:53:42 AM
  *
  * @author Kevin V. Bui (kvb2univpitt@gmail.com)
  */
-public class PatientResourceMapperTest {
+public class EncounterResourceMapperTest {
 
     /**
-     * Test of getPatientsFromFile method, of class PatientResourceMapper.
+     * Test of getEncountersFromFile method, of class EncounterResourceMapper.
      */
     @Test
-    public void testGetPatientsFromFile() {
-        Path file = Paths.get(getClass().getResource("/data/brainai/persons.tsv").getFile());
-        Map<String, Patient> patients = PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
+    public void testGetEncountersFromFile() {
+        Path file = Paths.get(getClass().getResource("/data/brainai/encounters.tsv").getFile());
+        Pattern delimiter = Delimiters.TAB_DELIM;
+        Map<String, Encounter> encounters = EncounterResourceMapper.getEncountersFromFile(file, delimiter, getPatients());
 
         int expected = 1;
-        int actual = patients.size();
+        int actual = encounters.size();
         Assertions.assertEquals(expected, actual);
+    }
 
-//        System.out.println("================================================================================");
-//        patients.values().stream()
-//                .map(e -> JsonResourceConverterR4.resourceToJson(e, true))
-//                .forEach(System.out::println);
-//        System.out.println("================================================================================");
+    private Map<String, Patient> getPatients() {
+        Path file = Paths.get(getClass().getResource("/data/brainai/persons.tsv").getFile());
+
+        return PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
     }
 
 }

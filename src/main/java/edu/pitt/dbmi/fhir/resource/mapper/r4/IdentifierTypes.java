@@ -54,6 +54,12 @@ public final class IdentifierTypes {
             .setDisplay("MRN")
             .setUserSelected(true);
 
+    public static final Coding CERNER_ENCOUNTER_ID = new Coding()
+            .setSystem("https://fhir.<region>.cerner.com/<EHR source id>/codeSet/319")
+            .setCode("1077")
+            .setDisplay("FIN NBR")
+            .setUserSelected(true);
+
     private IdentifierTypes() {
     }
 

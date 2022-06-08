@@ -36,6 +36,8 @@ public final class DateFormatters {
 
     public static final DateFormat MM_DD_YYYY = new SimpleDateFormat("MM/dd/yyyy");
 
+    public static final DateFormat MM_DD_YYYY_HHMMSS_AM = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss a");
+
     private DateFormatters() {
     }
 
