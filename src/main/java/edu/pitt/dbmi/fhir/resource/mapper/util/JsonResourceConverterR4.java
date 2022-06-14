@@ -42,6 +42,10 @@ public final class JsonResourceConverterR4 {
     private JsonResourceConverterR4() {
     }
 
+    public static String resourceToJson(IBaseResource resource) {
+        return resourceToJson(resource, true);
+    }
+
     public static String resourceToJson(IBaseResource resource, boolean printPretty) {
         PARSER.setPrettyPrint(printPretty);
         return PARSER.encodeResourceToString(resource);

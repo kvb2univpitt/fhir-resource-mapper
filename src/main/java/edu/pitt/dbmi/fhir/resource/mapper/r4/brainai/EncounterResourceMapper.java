@@ -87,7 +87,7 @@ public class EncounterResourceMapper {
     private static Encounter getEncounter(String[] fields, Patient patient) throws ParseException {
         Encounter encounter = new Encounter();
         encounter.setIdentifier(getIdentifiers(fields));
-        encounter.setSubject(getPatientReference(patient));
+        encounter.setSubject(getSubject(patient));
         encounter.setPeriod(getPeriod(fields));
         encounter.addType(getType(fields));
         encounter.addReasonCode(getReasonCode(fields));
@@ -123,7 +123,7 @@ public class EncounterResourceMapper {
         return (new Period()).setStart(start).setEnd(end);
     }
 
-    private static Reference getPatientReference(Patient patient) {
+    private static Reference getSubject(Patient patient) {
         return new Reference()
                 .setReference("Patient/" + patient.getIdentifierFirstRep().getValue())
                 .setDisplay(patient.getNameFirstRep().getNameAsSingleString());
