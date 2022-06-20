@@ -20,6 +20,7 @@ package edu.pitt.dbmi.fhir.resource.mapper.r4.brainai;
 
 import edu.pitt.dbmi.fhir.resource.mapper.r4.IdentifierTypes;
 import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.CodingSystemURIs;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.EncounterTypes;
 import edu.pitt.dbmi.fhir.resource.mapper.util.DateFormatters;
 import edu.pitt.dbmi.fhir.resource.mapper.util.FhirUtils;
 import java.io.BufferedReader;
@@ -30,14 +31,13 @@ import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.Collections;
 import java.util.Date;
-import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.CodeableConcept;
+import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Identifier;
-import org.hl7.fhir.r4.model.Patient;
 import org.hl7.fhir.r4.model.Period;
 import org.hl7.fhir.r4.model.Reference;
 
@@ -58,17 +58,13 @@ public class EncounterResourceMapper {
     private static final int REASONCODE = 6;
     private static final int REASONDESCRIPTION = 7;
 
-    public static Map<String, Encounter> getEncountersFromFile(final Path file, final Pattern delimiter, Map<String, Patient> patients) {
-        Map<String, Encounter> encounters = new HashMap<>();
+    public static List<Encounter> getEncounters(final Path file, final Pattern delimiter) {
+        List<Encounter> encounters = new LinkedList<>();
 
-        try ( BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
+        try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
             reader.readLine(); // skip header
             for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-                String[] fields = delimiter.split(line.trim());
-                Patient patient = patients.get(fields[PERSON_ID]);
-                if (patient != null) {
-                    encounters.put(fields[ENCOUNTER_ID], getEncounter(fields, patient));
-                }
+                encounters.add(getEncounter(delimiter.split(line.trim())));
             }
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
@@ -84,13 +80,15 @@ public class EncounterResourceMapper {
      * @throws ParseException
      * @see https://www.hl7.org/fhir/r4/encounter.html
      */
-    private static Encounter getEncounter(String[] fields, Patient patient) throws ParseException {
+    private static Encounter getEncounter(String[] fields) throws ParseException {
         Encounter encounter = new Encounter();
+        encounter.setClass_(getClassCode(fields));
         encounter.setIdentifier(getIdentifiers(fields));
-        encounter.setSubject(getSubject(patient));
+        encounter.setSubject(getSubject(fields));
         encounter.setPeriod(getPeriod(fields));
         encounter.addType(getType(fields));
         encounter.addReasonCode(getReasonCode(fields));
+        encounter.setStatus(Encounter.EncounterStatus.FINISHED);
 
         return encounter;
     }
@@ -107,7 +105,7 @@ public class EncounterResourceMapper {
 
     private static CodeableConcept getType(String[] fields) {
         CodeableConcept type = new CodeableConcept();
-
+        type.setText(fields[DESCRIPTION]);
         type.addCoding()
                 .setCode(fields[CODE])
                 .setDisplay(fields[DESCRIPTION])
@@ -123,10 +121,9 @@ public class EncounterResourceMapper {
         return (new Period()).setStart(start).setEnd(end);
     }
 
-    private static Reference getSubject(Patient patient) {
+    private static Reference getSubject(String[] fields) {
         return new Reference()
-                .setReference("Patient/" + patient.getIdentifierFirstRep().getValue())
-                .setDisplay(patient.getNameFirstRep().getNameAsSingleString());
+                .setReference(fields[PERSON_ID]);
     }
 
     private static List<Identifier> getIdentifiers(String[] fields) {
@@ -134,6 +131,14 @@ public class EncounterResourceMapper {
                 .setType(FhirUtils.mapCodingToCodeableConcept(IdentifierTypes.CERNER_ENCOUNTER_ID))
                 .setSystem("urn:oid:2.16.840.1.113883.3.552")
                 .setValue(fields[ENCOUNTER_ID]));
+    }
+
+    private static Coding getClassCode(String[] fields) {
+        Coding classCode = new Coding();
+        classCode.setCode(EncounterTypes.AMBULATORY.code());
+        classCode.setSystem("http://terminology.hl7.org/CodeSystem/v3-ActCode");
+
+        return classCode;
     }
 
 }

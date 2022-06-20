@@ -21,10 +21,9 @@ package edu.pitt.dbmi.fhir.resource.mapper.r4.brainai;
 import edu.pitt.dbmi.fhir.resource.mapper.util.Delimiters;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Map;
+import java.util.List;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.Encounter;
-import org.hl7.fhir.r4.model.Patient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -43,17 +42,16 @@ public class EncounterResourceMapperTest {
     public void testGetEncountersFromFile() {
         Path file = Paths.get(getClass().getResource("/data/brainai/encounters.tsv").getFile());
         Pattern delimiter = Delimiters.TAB_DELIM;
-        Map<String, Encounter> encounters = EncounterResourceMapper.getEncountersFromFile(file, delimiter, getPatients());
+        List<Encounter> encounters = EncounterResourceMapper.getEncounters(file, delimiter);
+//        System.out.println("================================================================================");
+//        encounters.stream()
+//                .map(e -> JsonResourceConverterR4.resourceToJson(e, true))
+//                .forEach(System.out::println);
+//        System.out.println("================================================================================");
 
         int expected = 1;
         int actual = encounters.size();
         Assertions.assertEquals(expected, actual);
-    }
-
-    private Map<String, Patient> getPatients() {
-        Path file = Paths.get(getClass().getResource("/data/brainai/persons.tsv").getFile());
-
-        return PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
     }
 
 }

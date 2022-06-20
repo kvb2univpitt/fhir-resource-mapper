@@ -29,14 +29,11 @@ import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.DateTimeType;
-import org.hl7.fhir.r4.model.Encounter;
 import org.hl7.fhir.r4.model.Observation;
-import org.hl7.fhir.r4.model.Patient;
 import org.hl7.fhir.r4.model.Reference;
 
 /**
@@ -57,22 +54,13 @@ public class ObservationResourceMapper {
     private static final int TYPE = 7;
     private static final int CATEGORY = 8;
 
-    public static List<Observation> getEncountersFromFile(
-            final Path file,
-            final Pattern delimiter,
-            Map<String, Patient> patients,
-            Map<String, Encounter> encounters) {
+    public static List<Observation> getObservationsFromFile(final Path file, final Pattern delimiter) {
         List<Observation> observations = new LinkedList<>();
 
-        try ( BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
+        try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
             reader.readLine(); // skip header
             for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-                String[] fields = delimiter.split(line.trim());
-                Patient patient = patients.get(fields[PATIENT]);
-                Encounter encounter = encounters.get(fields[ENCOUNTER]);
-                if (!(patient == null || encounter == null)) {
-                    observations.add(getObservation(fields, patient, encounter));
-                }
+                observations.add(getObservation(delimiter.split(line.trim())));
             }
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
@@ -88,10 +76,10 @@ public class ObservationResourceMapper {
      * @throws ParseException
      * @see https://www.hl7.org/fhir/observation.html
      */
-    private static Observation getObservation(String[] fields, Patient patient, Encounter encounter) throws ParseException {
+    private static Observation getObservation(String[] fields) throws ParseException {
         Observation observation = new Observation();
-        observation.setSubject(getSubject(patient));
-        observation.setEncounter(getEncounter(encounter));
+        observation.setSubject(getSubject(fields));
+        observation.setEncounter(getEncounter(fields));
         observation.setStatus(Observation.ObservationStatus.FINAL);
         observation.setCode(getCode(fields));
         observation.addComponent(getComponent(fields));
@@ -122,15 +110,14 @@ public class ObservationResourceMapper {
         return new CodeableConcept(new Coding(CodingSystemURIs.LOINC_URI, fields[CODE], fields[DESCRIPTION]));
     }
 
-    private static Reference getEncounter(Encounter encounter) {
+    private static Reference getEncounter(String[] fields) {
         return (new Reference())
-                .setReference("Encounter/" + encounter.getIdentifierFirstRep().getValue());
+                .setReference(fields[ENCOUNTER]);
     }
 
-    private static Reference getSubject(Patient patient) {
-        return (new Reference())
-                .setReference("Patient/" + patient.getIdentifierFirstRep().getValue())
-                .setDisplay(patient.getNameFirstRep().getNameAsSingleString());
+    private static Reference getSubject(String[] fields) {
+        return new Reference()
+                .setReference(fields[PATIENT]);
     }
 
 }

@@ -21,7 +21,7 @@ package edu.pitt.dbmi.fhir.resource.mapper.r4.brainai;
 import edu.pitt.dbmi.fhir.resource.mapper.util.Delimiters;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Map;
+import java.util.List;
 import org.hl7.fhir.r4.model.Patient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -40,17 +40,16 @@ public class PatientResourceMapperTest {
     @Test
     public void testGetPatientsFromFile() {
         Path file = Paths.get(getClass().getResource("/data/brainai/persons.tsv").getFile());
-        Map<String, Patient> patients = PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
+        List<Patient> patients = PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
+//        System.out.println("================================================================================");
+//        patients.stream()
+//                .map(e -> JsonResourceConverterR4.resourceToJson(e, true))
+//                .forEach(System.out::println);
+//        System.out.println("================================================================================");
 
         int expected = 1;
         int actual = patients.size();
         Assertions.assertEquals(expected, actual);
-
-//        System.out.println("================================================================================");
-//        patients.values().stream()
-//                .map(e -> JsonResourceConverterR4.resourceToJson(e, true))
-//                .forEach(System.out::println);
-//        System.out.println("================================================================================");
     }
 
 }

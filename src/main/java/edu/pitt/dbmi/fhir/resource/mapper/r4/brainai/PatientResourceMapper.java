@@ -29,10 +29,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.Address;
 import org.hl7.fhir.r4.model.Enumerations;
@@ -59,14 +57,14 @@ public class PatientResourceMapper {
     public static final int STATE = 7;
     public static final int ZIP = 8;
 
-    public static Map<String, Patient> getPatients(final Path file, final Pattern delimiter) {
-        Map<String, Patient> patients = new HashMap<>();
+    public static List<Patient> getPatients(final Path file, final Pattern delimiter) {
+        List<Patient> patients = new LinkedList<>();
 
         try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
             reader.readLine(); // skip header
             for (String line = reader.readLine(); line != null; line = reader.readLine()) {
                 String[] fields = delimiter.split(line.trim());
-                patients.put(fields[PERSON_ID], getPatient(fields));
+                patients.add(getPatient(fields));
             }
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
@@ -84,7 +82,6 @@ public class PatientResourceMapper {
      */
     private static Patient getPatient(String[] fields) throws ParseException {
         Patient patient = new Patient();
-//        patient.setMeta(ResourceProfiles.US_CORE_PATIENT_PROFILE);
         patient.setIdentifier(getIdentifiers(fields));
         patient.setName(getNames(fields));
         patient.setGender(getGender(fields));
