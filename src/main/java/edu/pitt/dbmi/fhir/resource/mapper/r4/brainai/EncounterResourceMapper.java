@@ -82,7 +82,7 @@ public class EncounterResourceMapper {
      */
     private static Encounter getEncounter(String[] fields) throws ParseException {
         Encounter encounter = new Encounter();
-        encounter.setClass_(getClassCode(fields));
+        encounter.setClass_(getClassCode());
         encounter.setIdentifier(getIdentifiers(fields));
         encounter.setSubject(getSubject(fields));
         encounter.setPeriod(getPeriod(fields));
@@ -133,9 +133,9 @@ public class EncounterResourceMapper {
                 .setValue(fields[ENCOUNTER_ID]));
     }
 
-    private static Coding getClassCode(String[] fields) {
+    private static Coding getClassCode() {
         Coding classCode = new Coding();
-        classCode.setCode(EncounterTypes.AMBULATORY.code());
+        classCode.setCode(EncounterTypes.INPATIENT.code());
         classCode.setSystem("http://terminology.hl7.org/CodeSystem/v3-ActCode");
 
         return classCode;
