@@ -54,7 +54,7 @@ public class ObservationResourceMapper {
     private static final int TYPE = 7;
     private static final int CATEGORY = 8;
 
-    public static List<Observation> getObservationsFromFile(final Path file, final Pattern delimiter) {
+    public static List<Observation> getObservations(final Path file, final Pattern delimiter) {
         List<Observation> observations = new LinkedList<>();
 
         try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {

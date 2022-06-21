@@ -42,7 +42,7 @@ public class ObservationResourceMapperTest {
     public void testGetEncountersFromFile() {
         Path file = Paths.get(getClass().getResource("/data/brainai/observations.tsv").getFile());
         Pattern delimiter = Delimiters.TAB_DELIM;
-        List<Observation> observations = ObservationResourceMapper.getObservationsFromFile(file, delimiter);
+        List<Observation> observations = ObservationResourceMapper.getObservations(file, delimiter);
 //        System.out.println("================================================================================");
 //        observations.stream()
 //                .map(e -> JsonResourceConverterR4.resourceToJson(e, true))
