@@ -67,19 +67,21 @@ public final class Organizations {
 
     private static void loadOrganizations() {
         Path file = Paths.get(Locations.class.getResource("/synthea/organizations.csv").getFile());
-        try (Stream<String> stream = Files.lines(file)) {
-            stream.map(String::trim)
-                    .filter(line -> !line.isEmpty())
-                    .forEach(line -> {
-                        String[] fields = Delimiters.COMMA_DELIM.split(line);
+        if (Files.exists(file)) {
+            try (Stream<String> stream = Files.lines(file)) {
+                stream.map(String::trim)
+                        .filter(line -> !line.isEmpty())
+                        .forEach(line -> {
+                            String[] fields = Delimiters.COMMA_DELIM.split(line);
 
-                        Organization organization = (new Organization())
-                                .addAddress(getAddress(fields))
-                                .addIdentifier(getIdentifier(fields));
-                        organizations.put(fields[Id], organization);
-                    });
-        } catch (IOException exception) {
-            exception.printStackTrace(System.err);
+                            Organization organization = (new Organization())
+                                    .addAddress(getAddress(fields))
+                                    .addIdentifier(getIdentifier(fields));
+                            organizations.put(fields[Id], organization);
+                        });
+            } catch (IOException exception) {
+                exception.printStackTrace(System.err);
+            }
         }
     }
 

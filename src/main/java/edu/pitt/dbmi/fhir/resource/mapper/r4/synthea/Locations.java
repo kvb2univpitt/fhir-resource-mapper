@@ -50,17 +50,19 @@ public final class Locations {
 
     private static void loadStateAbbreviations() {
         Path file = Paths.get(Locations.class.getResource("/synthea/zipcodes.csv").getFile());
-        try (Stream<String> stream = Files.lines(file)) {
-            int stateNameIndex = 1;
-            int stateAbbrevIndex = 2;
-            stream.forEach(line -> {
-                String[] fields = Delimiters.COMMA_DELIM.split(line.trim());
-                if (fields.length > 2) {
-                    stateAbbreviations.put(fields[stateNameIndex].trim(), fields[stateAbbrevIndex].trim());
-                }
-            });
-        } catch (IOException exception) {
-            exception.printStackTrace(System.err);
+        if (Files.exists(file)) {
+            try (Stream<String> stream = Files.lines(file)) {
+                int stateNameIndex = 1;
+                int stateAbbrevIndex = 2;
+                stream.forEach(line -> {
+                    String[] fields = Delimiters.COMMA_DELIM.split(line.trim());
+                    if (fields.length > 2) {
+                        stateAbbreviations.put(fields[stateNameIndex].trim(), fields[stateAbbrevIndex].trim());
+                    }
+                });
+            } catch (IOException exception) {
+                exception.printStackTrace(System.err);
+            }
         }
     }
 
