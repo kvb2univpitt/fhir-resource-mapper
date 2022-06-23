@@ -76,7 +76,7 @@ public class ObservationResourceMapper {
      * @throws ParseException
      * @see https://www.hl7.org/fhir/observation.html
      */
-    private static Observation getObservation(String[] fields) throws ParseException {
+    public static Observation getObservation(String[] fields) throws ParseException {
         Observation observation = new Observation();
         observation.setSubject(getSubject(fields));
         observation.setEncounter(getEncounter(fields));

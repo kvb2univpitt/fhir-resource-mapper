@@ -80,7 +80,7 @@ public class EncounterResourceMapper {
      * @throws ParseException
      * @see https://www.hl7.org/fhir/r4/encounter.html
      */
-    private static Encounter getEncounter(String[] fields) throws ParseException {
+    public static Encounter getEncounter(String[] fields) throws ParseException {
         Encounter encounter = new Encounter();
         encounter.setClass_(getClassCode());
         encounter.setIdentifier(getIdentifiers(fields));

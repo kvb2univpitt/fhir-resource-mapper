@@ -80,7 +80,7 @@ public class PatientResourceMapper {
      * @throws ParseException
      * @see https://www.hl7.org/fhir/r4/patient.html
      */
-    private static Patient getPatient(String[] fields) throws ParseException {
+    public static Patient getPatient(String[] fields) throws ParseException {
         Patient patient = new Patient();
         patient.setIdentifier(getIdentifiers(fields));
         patient.setName(getNames(fields));
