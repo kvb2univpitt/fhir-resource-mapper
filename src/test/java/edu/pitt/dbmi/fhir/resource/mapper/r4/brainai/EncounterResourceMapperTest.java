@@ -49,7 +49,7 @@ public class EncounterResourceMapperTest {
 //                .forEach(System.out::println);
 //        System.out.println("================================================================================");
 
-        int expected = 1;
+        int expected = 46;
         int actual = encounters.size();
         Assertions.assertEquals(expected, actual);
     }

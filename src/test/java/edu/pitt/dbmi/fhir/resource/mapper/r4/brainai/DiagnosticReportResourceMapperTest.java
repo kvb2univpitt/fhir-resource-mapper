@@ -50,7 +50,7 @@ public class DiagnosticReportResourceMapperTest {
 //                .forEach(System.out::println);
 //        System.out.println("================================================================================");
 
-        int expected = 1;
+        int expected = 3;
         int actual = diagnosticReports.size();
         Assertions.assertEquals(expected, actual);
     }

@@ -27,12 +27,14 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.DateTimeType;
+import org.hl7.fhir.r4.model.Identifier;
 import org.hl7.fhir.r4.model.Observation;
 import org.hl7.fhir.r4.model.Reference;
 
@@ -44,15 +46,16 @@ import org.hl7.fhir.r4.model.Reference;
  */
 public class ObservationResourceMapper {
 
-    private static final int DATE = 0;
-    private static final int PATIENT = 1;
-    private static final int ENCOUNTER = 2;
-    private static final int CODE = 3;
-    private static final int DESCRIPTION = 4;
-    private static final int VALUE = 5;
-    private static final int UNITS = 6;
-    private static final int TYPE = 7;
-    private static final int CATEGORY = 8;
+    private static final int OBSERVATION_ID = 0;
+    private static final int DATE = 1;
+    private static final int PATIENT = 2;
+    private static final int ENCOUNTER = 3;
+    private static final int CODE = 4;
+    private static final int DESCRIPTION = 5;
+    private static final int VALUE = 6;
+    private static final int UNITS = 7;
+    private static final int TYPE = 8;
+    private static final int CATEGORY = 9;
 
     public static List<Observation> getObservations(final Path file, final Pattern delimiter) {
         List<Observation> observations = new LinkedList<>();
@@ -78,6 +81,7 @@ public class ObservationResourceMapper {
      */
     public static Observation getObservation(String[] fields) throws ParseException {
         Observation observation = new Observation();
+        observation.setIdentifier(getIdentifiers(fields));
         observation.setSubject(getSubject(fields));
         observation.setEncounter(getEncounter(fields));
         observation.setStatus(Observation.ObservationStatus.FINAL);
@@ -118,6 +122,12 @@ public class ObservationResourceMapper {
     private static Reference getSubject(String[] fields) {
         return new Reference()
                 .setReference(fields[PATIENT]);
+    }
+
+    private static List<Identifier> getIdentifiers(String[] fields) {
+        return Collections.singletonList(new Identifier()
+                .setSystem("https://fhir.cerner.com/ceuuid")
+                .setValue(fields[OBSERVATION_ID]));
     }
 
 }

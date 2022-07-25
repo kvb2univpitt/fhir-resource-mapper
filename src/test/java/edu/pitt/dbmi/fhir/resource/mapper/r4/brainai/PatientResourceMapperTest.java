@@ -39,7 +39,7 @@ public class PatientResourceMapperTest {
      */
     @Test
     public void testGetPatientsFromFile() {
-        Path file = Paths.get(getClass().getResource("/data/brainai/persons.tsv").getFile());
+        Path file = Paths.get(getClass().getResource("/data/brainai/patients.tsv").getFile());
         List<Patient> patients = PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM);
 //        System.out.println("================================================================================");
 //        patients.stream()
@@ -47,7 +47,7 @@ public class PatientResourceMapperTest {
 //                .forEach(System.out::println);
 //        System.out.println("================================================================================");
 
-        int expected = 1;
+        int expected = 5;
         int actual = patients.size();
         Assertions.assertEquals(expected, actual);
     }

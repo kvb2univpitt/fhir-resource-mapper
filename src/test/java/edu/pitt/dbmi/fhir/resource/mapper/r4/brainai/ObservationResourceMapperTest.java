@@ -49,7 +49,7 @@ public class ObservationResourceMapperTest {
 //                .forEach(System.out::println);
 //        System.out.println("================================================================================");
 
-        int expected = 1;
+        int expected = 50;
         int actual = observations.size();
         Assertions.assertEquals(expected, actual);
     }

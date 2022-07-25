@@ -37,6 +37,8 @@ public final class CodingSystemURIs {
     public static final String DICOM_DCM_URI = "https://dicom.nema.org/resources/ontology/DCM";
     public static final String MEDIA_TYPE_URI = "http://terminology.hl7.org/CodeSystem/media-type";
 
+    public static final String DIAGNOSTIC_REPORT_CODE_SYSTEM = "http://terminology.hl7.org/CodeSystem/v2-0074";
+
     public static final String SYNTHEA_IDENTIFIER = "https://github.com/synthetichealth/synthea";
 
     private CodingSystemURIs() {

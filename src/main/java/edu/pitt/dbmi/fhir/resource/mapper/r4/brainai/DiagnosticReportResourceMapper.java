@@ -18,6 +18,7 @@
  */
 package edu.pitt.dbmi.fhir.resource.mapper.r4.brainai;
 
+import edu.pitt.dbmi.fhir.resource.mapper.r4.standards.CodingSystemURIs;
 import edu.pitt.dbmi.fhir.resource.mapper.util.DateFormatters;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,8 +26,11 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
@@ -45,36 +49,139 @@ import org.hl7.fhir.r4.model.Reference;
  */
 public class DiagnosticReportResourceMapper {
 
-    private static final int DATE = 0;
-    private static final int PATIENT = 1;
-    private static final int ENCOUNTER = 2;
+    private static final int ISSUE_DATE = 0;
+    private static final int EFFECTIVE_DATE = 1;
+    private static final int PATIENT = 2;
+    private static final int ENCOUNTER = 3;
+    private static final int OBSERVATION = 4;
+    private static final int OBSERVATION_DISPLAY = 5;
+    private static final int CATEGORY_CODE = 6;
+    private static final int CATEGORY_DISPLAY = 7;
+    private static final int CODING_CODE = 8;
+    private static final int CODING_DISPLAY = 9;
 
     public static List<DiagnosticReport> getDiagnosticReports(final Path file, final Pattern delimiter) {
         List<DiagnosticReport> diagnosticReports = new LinkedList<>();
 
+        Map<String, List<ReferenceData>> encounterGroupOfObservations = new HashMap<>();
+        Map<String, DiagnosticReport> encounterDiagnosticReports = new HashMap<>();
         try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
             reader.readLine(); // skip header
             for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-                diagnosticReports.add(getDiagnosticReport(delimiter.split(line.trim())));
+                String[] fields = delimiter.split(line);
+
+                String key = fields[ENCOUNTER].trim();
+
+                // get group of observations
+                List<ReferenceData> observations = encounterGroupOfObservations.get(key);
+                if (observations == null) {
+                    observations = new LinkedList<>();
+                    encounterGroupOfObservations.put(key, observations);
+                }
+                observations.add(new ReferenceData(fields[OBSERVATION], fields[OBSERVATION_DISPLAY]));
+
+                // get diagnostic report
+                if (!encounterDiagnosticReports.containsKey(key)) {
+                    encounterDiagnosticReports.put(key, getDiagnosticReport(fields));
+                }
             }
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
         }
 
+        // add observations to diagnostic reports
+        encounterDiagnosticReports.forEach((key, diagnosticReport) -> {
+            if (encounterGroupOfObservations.containsKey(key)) {
+                encounterGroupOfObservations.get(key)
+                        .forEach(observation -> {
+                            diagnosticReport.addResult()
+                                    .setReference(observation.reference)
+                                    .setDisplay(observation.display);
+                        });
+            }
+
+            diagnosticReports.add(diagnosticReport);
+        });
+
         return diagnosticReports;
     }
 
-    public static DiagnosticReport getDiagnosticReport(String[] fields) throws ParseException {
+    private static DiagnosticReport getDiagnosticReport(String[] fields) throws ParseException {
         DiagnosticReport diagnosticReport = new DiagnosticReport();
-        diagnosticReport.setEffective(new DateTimeType(DateFormatters.MM_DD_YYYY_HHMMSS_AM.parse(fields[DATE])));
+        diagnosticReport.setEffective(getEffectiveDate(fields));
+        diagnosticReport.setIssued(getIssuedDate(fields));
         diagnosticReport.setSubject(getSubject(fields));
         diagnosticReport.setEncounter(getEncounter(fields));
         diagnosticReport.setStatus(DiagnosticReportStatus.FINAL);
-        diagnosticReport.addCategory(new CodeableConcept(new Coding("http://terminology.hl7.org/CodeSystem/v2-0074", "IMG", "Diagnostic Imaging")));
+        diagnosticReport.addCategory(getCategory(fields));
+        diagnosticReport.setCode(getCode(fields));
 
         return diagnosticReport;
     }
 
+//    public static List<DiagnosticReport> getDiagnosticReports(final Path file, final Pattern delimiter) {
+//        List<DiagnosticReport> diagnosticReports = new LinkedList<>();
+//
+//        try ( BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
+//            reader.readLine(); // skip header
+//            for (String line = reader.readLine(); line != null; line = reader.readLine()) {
+//                diagnosticReports.add(getDiagnosticReport(delimiter.split(line.trim())));
+//            }
+//        } catch (IOException | ParseException exception) {
+//            exception.printStackTrace(System.err);
+//        }
+//
+//        return diagnosticReports;
+//    }
+//    public static DiagnosticReport getDiagnosticReport(String[] fields) throws ParseException {
+//        DiagnosticReport diagnosticReport = new DiagnosticReport();
+//        diagnosticReport.setEffective(getEffectiveDate(fields));
+//        diagnosticReport.setIssued(getIssuedDate(fields));
+//        diagnosticReport.setSubject(getSubject(fields));
+//        diagnosticReport.setEncounter(getEncounter(fields));
+//        diagnosticReport.setStatus(DiagnosticReportStatus.FINAL);
+//        diagnosticReport.addCategory(getCategory(fields));
+//        diagnosticReport.setCode(getCode(fields));
+//
+//        return diagnosticReport;
+//    }
+    private static DateTimeType getEffectiveDate(String[] fields) throws ParseException {
+        return new DateTimeType(DateFormatters.MM_DD_YYYY_HHMMSS_AM.parse(fields[EFFECTIVE_DATE]));
+    }
+
+    private static Date getIssuedDate(String[] fields) throws ParseException {
+        return DateFormatters.MM_DD_YYYY_HHMMSS_AM.parse(fields[ISSUE_DATE]);
+    }
+
+    private static CodeableConcept getCategory(String[] fields) {
+        Coding category = (new Coding())
+                .setCode(fields[CATEGORY_CODE])
+                .setSystem(CodingSystemURIs.DIAGNOSTIC_REPORT_CODE_SYSTEM)
+                .setDisplay(fields[CATEGORY_DISPLAY]);
+
+        return new CodeableConcept(category);
+    }
+
+    private static CodeableConcept getCode(String[] fields) {
+        Coding category = (new Coding())
+                .setCode(fields[CODING_CODE])
+                .setSystem(CodingSystemURIs.LOINC_URI)
+                .setDisplay(fields[CODING_DISPLAY]);
+
+        return new CodeableConcept(category);
+    }
+
+//    private static CodeableConcept getCategory() {
+//        Coding category = (new Coding())
+//                .setCode("IMG")
+//                .setSystem("http://terminology.hl7.org/CodeSystem/v2-0074")
+//                .setDisplay("Diagnostic Imaging");
+//
+//        return new CodeableConcept(category);
+//    }
+//    private static CodeableConcept getCode() {
+//        return new CodeableConcept(new Coding(CodingSystemURIs.LOINC_URI, "55112-7", "Summary"));
+//    }
     private static Reference getEncounter(String[] fields) {
         return (new Reference())
                 .setReference(fields[ENCOUNTER]);
@@ -83,6 +190,26 @@ public class DiagnosticReportResourceMapper {
     private static Reference getSubject(String[] fields) {
         return new Reference()
                 .setReference(fields[PATIENT]);
+    }
+
+    private static class ReferenceData {
+
+        private final String reference;
+        private final String display;
+
+        public ReferenceData(String reference, String display) {
+            this.reference = reference;
+            this.display = display;
+        }
+
+        public String getReference() {
+            return reference;
+        }
+
+        public String getDisplay() {
+            return display;
+        }
+
     }
 
 }
