@@ -32,6 +32,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.DateTimeType;
@@ -63,30 +64,35 @@ public class DiagnosticReportResourceMapper {
     public static List<DiagnosticReport> getDiagnosticReports(final Path file, final Pattern delimiter) {
         List<DiagnosticReport> diagnosticReports = new LinkedList<>();
 
-        Map<String, List<ReferenceData>> encounterGroupOfObservations = new HashMap<>();
-        Map<String, DiagnosticReport> encounterDiagnosticReports = new HashMap<>();
         try (BufferedReader reader = Files.newBufferedReader(file, Charset.defaultCharset())) {
-            reader.readLine(); // skip header
-            for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-                String[] fields = delimiter.split(line);
-
-                String key = fields[ENCOUNTER].trim();
-
-                // get group of observations
-                List<ReferenceData> observations = encounterGroupOfObservations.get(key);
-                if (observations == null) {
-                    observations = new LinkedList<>();
-                    encounterGroupOfObservations.put(key, observations);
-                }
-                observations.add(new ReferenceData(fields[OBSERVATION], fields[OBSERVATION_DISPLAY]));
-
-                // get diagnostic report
-                if (!encounterDiagnosticReports.containsKey(key)) {
-                    encounterDiagnosticReports.put(key, getDiagnosticReport(fields));
-                }
-            }
+            getDiagnosticReports(reader.lines().skip(1).collect(Collectors.toList()), delimiter, diagnosticReports);
         } catch (IOException | ParseException exception) {
             exception.printStackTrace(System.err);
+        }
+
+        return diagnosticReports;
+    }
+
+    public static void getDiagnosticReports(final List<String> lines, final Pattern delimiter, List<DiagnosticReport> diagnosticReports) throws ParseException {
+        Map<String, List<ReferenceData>> encounterGroupOfObservations = new HashMap<>();
+        Map<String, DiagnosticReport> encounterDiagnosticReports = new HashMap<>();
+        for (String line : lines) {
+            String[] fields = delimiter.split(line);
+
+            String key = fields[ENCOUNTER].trim();
+
+            // get group of observations
+            List<ReferenceData> observations = encounterGroupOfObservations.get(key);
+            if (observations == null) {
+                observations = new LinkedList<>();
+                encounterGroupOfObservations.put(key, observations);
+            }
+            observations.add(new ReferenceData(fields[OBSERVATION], fields[OBSERVATION_DISPLAY]));
+
+            // get diagnostic report
+            if (!encounterDiagnosticReports.containsKey(key)) {
+                encounterDiagnosticReports.put(key, getDiagnosticReport(fields));
+            }
         }
 
         // add observations to diagnostic reports
@@ -102,8 +108,6 @@ public class DiagnosticReportResourceMapper {
 
             diagnosticReports.add(diagnosticReport);
         });
-
-        return diagnosticReports;
     }
 
     private static DiagnosticReport getDiagnosticReport(String[] fields) throws ParseException {
